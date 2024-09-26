@@ -86,7 +86,7 @@ nav {
 
 .home-section2 {
     position: relative;
-    background: url('/images/taxi.jpg') no-repeat center center/cover;
+    
     height: 100vh;
     z-index: 2;
     
