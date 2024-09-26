@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taxi Service Cards</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+   * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.icon {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #ffcc00;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff9900;
+}
+
+</style>
+<body>
+
+<div class="card-container">
+    <!-- City Rides -->
+    <div class="card">
+        <div class="icon">🚗</div>
+        <h3>City Rides</h3>
+        <p>Reliable, fast, and safe transportation across the city.</p>
+        <button>Book Now</button>
+    </div>
+
+    <!-- Airport Transfers -->
+    <div class="card">
+        <div class="icon">✈️</div>
+        <h3>Airport Transfers</h3>
+        <p>Hassle-free pick-up and drop-off services at the airport.</p>
+        <button>Reserve Your Ride</button>
+    </div>
+
+    <!-- Outstation Rides -->
+    <div class="card">
+        <div class="icon">🗺️</div>
+        <h3>Outstation Rides</h3>
+        <p>Affordable and comfortable rides for outstation trips.</p>
+        <button>Plan Your Trip</button>
+    </div>
+
+    <!-- Luxury Cars -->
+    <div class="card">
+        <div class="icon">🚘</div>
+        <h3>Luxury Cars</h3>
+        <p>Premium car rentals for special occasions.</p>
+        <button>Book a Luxury Ride</button>
+    </div>
+
+    <!-- Ride Sharing -->
+    <div class="card">
+        <div class="icon">👥</div>
+        <h3>Ride Sharing</h3>
+        <p>Eco-friendly and cost-effective ride-sharing options.</p>
+        <button>Share a Ride</button>
+    </div>
+
+    <!-- Corporate Services -->
+    <div class="card">
+        <div class="icon">💼</div>
+        <h3>Corporate Services</h3>
+        <p>Professional transportation solutions for corporate clients.</p>
+        <button>Corporate Booking</button>
+    </div>
+</div>
+
+</body>
+</html>
